@@ -1,4 +1,8 @@
-# Personal Portfolio  
+# Personal Portfolio
+
+## Deployed version url:
+
+[alfredjose17.github.io/portfolio/](https://alfredjose17.github.io/portfolio/)
 
 ## Quick Setup
 
