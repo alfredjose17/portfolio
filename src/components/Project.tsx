@@ -27,8 +27,8 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><h2>Facebook Group Post Scrapper</h2></a>
-                <p>Automated Facebook group post fetching using Selenium and BeautifulSoup, enabling quick data extraction. Integrated a Telegram bot to notify users about new posts in real-time.</p>
+                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><h2>Serverless Architecture on AWS</h2></a>
+                <p>A project implementing a fully serverless web application using AWS Lambda, API Gateway, DynamoDB, S3, and Cognito for secure, scalable, and cost-effective backend and user authentication services.</p>
             </div>
         </div>
     </div>

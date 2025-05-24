@@ -19,9 +19,9 @@ const labelsFirst = [
     "CI/CD Pipelines",
     "Jenkins",
     "SonarQube",
+    "Selenium",
     "Artifactory Management",
     "Elastic Stack",
-    "Selenium",
 ];
 
 const labelsSecond = [
