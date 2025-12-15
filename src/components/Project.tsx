@@ -11,9 +11,9 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/alfredjose17/fight-club-app" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/alfredjose17/fight-club-app" target="_blank" rel="noreferrer"><h2>Fight Club</h2></a>
-                <p>A Django web application project focused on automating CI/CD processes using Docker, Google Kubernetes Engine, Helm, and CI/CD pipelines.</p>
+                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><h2>Serverless Architecture on AWS</h2></a>
+                <p>A project implementing a fully serverless web application using AWS Lambda, API Gateway, DynamoDB, S3, and Cognito for secure, scalable, and cost-effective backend and user authentication services.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/alfredjose17/automation-labs" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -21,14 +21,14 @@ function Project() {
                 <p>A project focused on automating the provisioning and management of Azure cloud resources using Terraform and Ansible for efficient configuration, deployment, and orchestration.</p>
             </div>
             <div className="project">
+                <a href="https://github.com/alfredjose17/fight-club-app" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/alfredjose17/fight-club-app" target="_blank" rel="noreferrer"><h2>Fight Club</h2></a>
+                <p>A Django web application project focused on automating CI/CD processes using Docker, Google Kubernetes Engine, Helm, and CI/CD pipelines.</p>
+            </div>
+            <div className="project">
                 <a href="https://github.com/alfredjose17/blockchain-developer-bootcamp-final-project" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/alfredjose17/blockchain-developer-bootcamp-final-project" target="_blank" rel="noreferrer"><h2>Ace Token Farm</h2></a>
                 <p>A Dapp for yield farming, allowing users to stake crypto assets into the TokenFarm contract and earn rewards in ACE, an ERC20 token, with the option to unstake and withdraw rewards anytime.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/alfredjose17/facebook-group-post-scrapper" target="_blank" rel="noreferrer"><h2>Serverless Architecture on AWS</h2></a>
-                <p>A project implementing a fully serverless web application using AWS Lambda, API Gateway, DynamoDB, S3, and Cognito for secure, scalable, and cost-effective backend and user authentication services.</p>
             </div>
         </div>
     </div>
