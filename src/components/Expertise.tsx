@@ -6,36 +6,42 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    "AWS",
     "Docker",
     "Kubernetes",
     "Helm",
-    "AWS",
-    "Azure",
-    "Google Cloud",
-    "Linux",
-    "Git",
     "Terraform",
+    "Git",
+    "Linux",
     "Ansible",
-    "CI/CD Pipelines",
     "Jenkins",
+    "Github Actions",
+    "GitLab",
     "SonarQube",
-    "Selenium",
-    "Artifactory Management",
+    "JFrog",
     "Elastic Stack",
+    "Prometheus",
+    "Grafana",
+    "Cloud Security",
+    "Computer Networks",
+    "Microsoft Azure",
+    "Google Cloud",
 ];
 
 const labelsSecond = [
     "Python",
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "HTML5",
-    "CSS3",
     "Flask",
     "Django",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "Java",
+    "Spring Boot",
     "SQL",
     "NoSQL",
-    "Postman"
+    "REST API",
+    "HTML5",
+    "CSS3",
 ];
 
 const labelsThird = [
@@ -43,7 +49,6 @@ const labelsThird = [
     "Ethereum",
     "Solidity",
     "Web3",
-    "Cosmos"
 ];
 
 function Expertise() {
@@ -66,7 +71,7 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
+                    <h3>Web Development</h3>
                     <p>I build scalable and responsive web applications using modern frameworks like React, Node.js, Django and Flask. I have experience with both front-end and back-end development, ensuring seamless integration with databases and APIs.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
