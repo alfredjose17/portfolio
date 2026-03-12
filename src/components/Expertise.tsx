@@ -62,7 +62,7 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
                         <h3>Cloud & DevSecOps</h3>
-                        <p>I specialize in automating cloud infrastructure and implementing robust DevSecOps practices. My expertise includes building CI/CD pipelines, managing cloud resources on AWS, Azure, and GCP, and ensuring secure, scalable deployments.</p>
+                        <p>I specialize in automating cloud infrastructure and implementing robust DevSecOps practices. My expertise includes building CI/CD pipelines, managing cloud resources on AWS using Terraform, and ensuring secure, scalable deployments with Kubernetes.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
@@ -74,7 +74,7 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faReact} size="3x" />
                         <h3>Web Development</h3>
-                        <p>I build scalable and responsive web applications using modern frameworks like React, Node.js, Django and Flask. I have experience with both front-end and back-end development, ensuring seamless integration with databases and APIs.</p>
+                        <p>I build scalable and responsive web applications using modern frameworks like Java Spring Boot, Django, React and Node.js. I have experience with both back-end and front-end development, ensuring seamless integration with databases and APIs.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsSecond.map((label, index) => (

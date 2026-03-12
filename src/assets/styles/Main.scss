@@ -4,7 +4,6 @@
 
 .about-section {
     display: flex;
-    gap: 30px;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -17,11 +16,21 @@
     background-position: center;
 }
 
+.about-content-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .about-section .content {
     text-align: left;
     z-index: 2;
+    position: relative;
 
     .social_icons {
+        position: absolute;
+        top: -45px;
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -46,6 +55,16 @@
         font-size: 5em;
         margin-block-start: 0px;
         margin-block-end: 0px;
+    }
+
+    .aws-badge {
+        width: 100px;
+        margin-top: 20px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
     }
 }
 
@@ -118,19 +137,14 @@
         }
 
         .social_icons {
-            display: none !important;
+            display: flex !important;
+            position: absolute;
+            top: 105px;
+            left: 200px;
         }
 
         .mobile_social_icons {
-            padding-top: 10px;
-            display: flex !important;
-            flex-direction: row;
-            gap: 10px;
-            color: white;
-    
-            svg {
-                font-size: 1.8em;
-            }
+            display: none !important;
         }
 
         .about-section {
@@ -138,6 +152,10 @@
             display: block;
             padding-left: 0px;
             padding-right: 0px;
+        }
+
+        .about-content-wrapper {
+            display: block;
         }
 
         .about-section .content {
